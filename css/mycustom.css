@@ -1,0 +1,223 @@
+/* PART-1 CSS */
+/* PART-2 CSS */
+/* PART-3 CSS */
+/* PART-4 CSS */
+/* PART-5 CSS */
+/* PART-6 CSS */
+/* PART-7 CSS */
+/* PART-8 CSS */
+/* PART-9 CSS */
+/* PART-10 CSS */
+
+body{
+    background-image: url('../images/bg-inpage.jpg');
+}
+.part-1{
+    border-radius: 20px  0px  0px  20px;
+    margin: 15px;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 15px; 
+    background-color: rgba(167, 200, 241, 0.205);
+    border: 1px solid black;
+    border-left: 3px solid black;
+}
+.row{
+    padding: 30px 0px;
+}
+.part-1{
+  
+   
+    font-weight: bold;
+}
+.title {
+    font-size: 35px; 
+     border-bottom: 1px solid gray;
+    width: 95%;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    color: #5688B0;
+    font-weight: bold;
+}
+.line-1{
+    border-bottom: 1px solid gray;
+    height: 1px;
+}
+.box {
+    background-color: white;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 1px #C4C4C5;
+}
+.frame {
+    padding: 20px 0px;
+    
+  
+}
+.frame .title {
+   border-bottom: 1px dotted gray;
+   font-size: 20px;
+
+   color: #5688B0;
+    
+}
+.box-2{
+    width: 100%;
+    padding: 10px 0px;
+}
+.over-scoll{
+    overflow-x: scroll;
+}
+.number{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #5688B0;
+}
+
+.result{
+    font-size: 20px;
+    padding-top: 20px;
+    color: gray;
+}
+.box-2 .xx{
+    color: red;
+}
+    
+.box-2 .oo{
+    color: green;
+}
+
+.part-2 .title{
+    color: rgb(30, 122, 98);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+}
+.bg-2{
+    background-color: rgba(233, 220, 220, 0.233);
+}
+.part-2{
+    border-radius: 20px  0px  0px  20px;
+    margin: 15px;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 15px; 
+    background-color: rgba(167, 200, 241, 0.205);
+    border: 1px solid #1E8D70;
+    border-left: 3px solid #1E8D70;
+}
+
+td, th{
+    color:#454545;
+}
+table{
+    margin-top: 20px;
+
+    width: 96%;
+    margin: 0 auto;
+}
+.btn-danger{
+    background-color: #DC1941;
+}
+.btn-success{
+    background-color: #27B192;
+}
+.bold{
+    font-weight: bold;
+}
+
+.a{
+    background-color: #F5F5F5;
+}
+
+.b{
+    background-color: #F9F9F9;
+}
+
+.part-2 i{
+    font-size: 16px;
+   
+}
+.part-2 .fa-times-circle{
+    background-color: #E55C6B;
+    color: white;
+    border-radius: 50px;
+}
+.part-2 .fa-check{
+    color: #25AA8D;
+}
+.fa-map-marker-exclamation{
+   color: white;
+}
+.btn-primary{
+    background-color: #31C7C8;
+    border: none;
+    font-size: 10px;
+}
+.btn-primary:hover{
+    background-color: rgb(148, 148, 255);
+}
+.btn{
+    width: 87%;
+    margin: 0 auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.fa-exclamation-circle{
+    margin-top: 0px;
+    padding-right: 5px;
+}
+.part-2 .fa-address-book{
+    font-size: 30px;
+}
+.part-2 .tg .red td {
+    color: red;
+}
+.aa, .bb, .cc, .dd{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    border-radius: 50px;
+    
+}
+.aa.picked{
+    background: linear-gradient(90deg, rgba(107,99,242,1) 0%, rgba(105,105,237,1) 35%, rgba(0,212,255,1) 100%);
+ 
+}
+.bb.picked{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(195,144,34,1) 100%);
+}
+.cc.picked{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.dd.picked{
+    background: linear-gradient(90deg, rgba(113,113,113,1) 0%, rgba(253,29,29,1) 50%, rgba(255,226,186,1) 100%);
+}
+.frame-100 .box-2 i{
+   display: none;
+    margin-right: 3px; 
+    font-size: 20px;
+
+}
+.frame-100 .picked i{
+    display: inline-block;
+}
+
+/* 媒體查詢，在螢幕解析度下低於_____px，設定該class在該解析度下之變化 */
+@media only screen and (max-width: 1199px){
+
+}
+@media only screen and (max-width: 991px){
+
+}
+@media only screen and (max-width: 767px){
+
+}
+@media only screen and (max-width: 575px){
+
+}
